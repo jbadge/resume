@@ -30,9 +30,10 @@ export function Header({
         <div className="w-100">
           <a
             className="block print:hidden"
-            href={`https://www.linkedin.com/in/${resume.contact.linkedin}`}>
+            href={`https://www.linkedin.com/in/${resume.contact.linkedin}`}
+          >
             <img
-              alt="Gavin's LinkedIn Profile"
+              alt="Jeremy's LinkedIn Profile"
               className="inline pr-1"
               style={{ height: '1rem' }}
               src={linkedin}
@@ -44,9 +45,10 @@ export function Header({
           </span>
           <a
             className="block print:hidden"
-            href={`https://github.com/${resume.contact.github}`}>
+            href={`https://github.com/${resume.contact.github}`}
+          >
             <img
-              alt="Gavin's Github Profile"
+              alt="Jeremy's Github Profile"
               className="inline pr-1"
               style={{ height: '1rem' }}
               src={github}

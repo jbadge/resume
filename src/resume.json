@@ -1,150 +1,78 @@
 {
   "contact": {
-    "name": "Gavin Stark",
-    "email": "gavin@gstark.com",
-    "phone": "727-560-3116",
-    "address": "Saint Petersburg, FL, 33703",
-    "linkedin": "gastark",
-    "github": "gstark"
+    "name": "Jeremy Badger",
+    "email": "jeremebadger@gmail.com",
+    "phone": "813-748-0979",
+    "address": "Santa Ana, CA, 92705",
+    "linkedin": "jeremybadger",
+    "github": "jbadge"
   },
-  "about": "Software engineer with broad experience in Back End Web, Front End Web, DevOps, and Operating Systems who creates, maintains, audits, and improves systems to fulfill clients’ requirements. Proficient in determining requirements, coordinating developer teams, and creating and deploying applications.",
+  "about": "Former physics academic seeking to apply and develop skills in technology, leadership, team-based projects, and problem solving.",
   "experience": [
     {
-      "companyName": "STRATACACHE (Real Digital Media division)",
-      "jobTitle": "Principal Software Engineer (Contractor)",
-      "startDate": "Jun 2022",
-      "endDate": "Current",
-      "location": "Saint Petersburg, Florida",
+      "companyName": "University of California, Santa Barbara",
+      "jobTitle": "Instructional Lab Coordinator | Lower Division Physics",
+      "startDate": "Aug 2019",
+      "endDate": "Mar 2021",
+      "location": "Santa Barbara, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
       "descriptions": [
         {
-          "text": "Continuing previous role in a contractor capacity.",
+          "text": "Conceptualized and produced remote learning curriculum for lower division physics courses.",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["physics-learning"]
         },
         {
-          "text": "Lowered installation costs of in-store media playing devices by implementing a wifi and mobile based device configuration system in React",
+          "text": "Guided 20+ graduate student team-leaders, delivering weekly lectures, teaching new material and facilitating general and instructional problem resolution.",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Achieved first-to-market for ARM based tablet and shelf-edge display devices by porting existing Intel based operating system.",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Lowered AWS costs through analyzing and right-sizing EC2 and RDS instances.",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["physics-learning"]
         }
       ]
     },
     {
-      "companyName": "Kin Insurance",
-      "jobTitle": "Principal Engineer",
-      "startDate": "Jan 2022",
-      "endDate": "June 2022",
-      "location": "Saint Petersburg, Florida",
+      "companyName": "University of California, Santa Barbara",
+      "jobTitle": "Data Research Analyst | Imaging Pipeline",
+      "startDate": "Jan 2018",
+      "endDate": "Aug 2019",
+      "location": "Santa Barbara, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
       "descriptions": [
         {
-          "text": "Contributed to an Event Source architecture for an accounting and billing system",
+          "text": "Led team of ~10 researchers, under Dr. Phillip Lubin, decreasing pipeline runtime duration by 50%",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["project-management"]
         },
         {
-          "text": "Mentored developers at all levels (associate through staff)",
+          "text": "Organized bi-weekly meetings to address and resolve programming and pipeline issues.",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["project-management"]
         },
         {
-          "text": "Reviewed architecture proposals as part of the Architecture Review Board",
+          "text": "Took initiative to debug and refactor non-working Python code and develop new code for image analysis pipeline.",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Performed code reviews for pull-requests across the organization",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Developed libraries and patterns for building internal APIs",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Contributed to the organization's Tech Vision on behalf of the CTO and VP of Architecture",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["back-end"]
         }
       ]
     },
     {
-      "companyName": "STRATACACHE (Real Digital Media division)",
-      "jobTitle": "Principal Engineer",
-      "startDate": "2017",
-      "endDate": "Dec 2021",
-      "location": "Saint Petersburg, Florida",
+      "companyName": "University of California, Santa Barbara",
+      "jobTitle": "Laboratory Assistant | IT Coordinator, System Administrator",
+      "startDate": "Jan 2018",
+      "endDate": "Aug 2019",
+      "location": "Santa Barbara, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
       "descriptions": [
         {
-          "text": "Developed, maintained, and improved a large-scale Ruby on Rails project for over 15 years. Migrated from Rails version 0.9 through Rails version 6.1",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Built a Ruby back-end API that processes millions of requests and background jobs per day.",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Migrated a Ruby on Rails system to a JSON-API-based back-end, improving the marketability of the NEOCAST digital signage management system.",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Built automated test code in Ruby and Cucumber to automate the testing of embedded hardware.",
-          "show": "list",
-          "areas": ["systems", "back-end-web"]
-        },
-        {
-          "text": "Used RSpec to provide full test coverage of the authorization layer in the Rails JSON-API",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Developed a React front-end application to leverage a JSON-API back-end for customers to manage their digital signage networks",
-          "show": "list",
-          "areas": ["front-end-web"]
-        },
-
-        {
-          "text": "Enabled new markets by creating and maintaining a custom Ubuntu-based OS that supported 32-bit Intel, 64-bit Intel, and ARM-64 based embedded systems.",
+          "text": "Managed and maintained network infrastructure and system administration, ensuring optimal performance and reliability of Windows, Mac, and Linux systems.",
           "show": "list",
           "areas": ["systems"]
         },
         {
-          "text": "Achieved first-to-market amongst other divisions in a transition to the ARM platform by developing and implementing custom kernel patches for ARM-64 systems.",
+          "text": "Assisted in lab projects for Modern Design course, including additive and subtractive manufacturing projects (Siemens NX, CAM design, 3D printing, laser-cut etchings and CNC fabrication).",
           "show": "list",
-          "areas": ["systems"]
-        },
-
-        {
-          "text": "Lowered hardware platform costs by maintaining a single application architecture for 32-bit Intel, 64-bit Intel, ARM-64, and Android devices.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Built Ruby based AWS automation software to deploy and scale a docker-based infrastructure. This led to a reduction in hosting costs.",
-          "show": "list",
-          "areas": ["back-end-web", "systems"]
-        },
-        {
-          "text": "Increased diagnostic capability and lowered issue resolution time by implementing consolidated application log collection and analysis.",
-          "show": "hide",
           "areas": ["systems"]
         }
       ],
@@ -160,44 +88,20 @@
         "CSS"
       ]
     },
+
     {
-      "companyName": "Suncoast Developers Guild",
-      "jobTitle": "Senior Instructor",
-      "startDate": "2018",
-      "endDate": "Dec 2021",
-      "location": "Saint Petersburg, Florida",
+      "companyName": "Los Angeles Valley College",
+      "jobTitle": "Physics Tutor at the Tutoring Center",
+      "startDate": "Nov 2015",
+      "endDate": "July 2016",
+      "location": "Los Angeles, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
       "descriptions": [
         {
-          "text": "Designed and implemented an interactive and engaging curriculum for multiple courses.",
+          "text": "Worked with undergraduate students struggling in physics to understand various concepts within the discipline.",
           "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Contributed to internal app generator: <a class=\"underline print:no-underline\" href=\"https://www.npmjs.com/package/app-app\">app-app</a>. Based on react-scripts, builds student starter projects.",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Contributed to a 95% placement rate by identifying, recommending, and guiding students to secure positions as junior developers.",
-          "show": "list",
-          "areas": [""]
-        },
-        {
-          "text": "Expanded market from full-time in-person classes into remote, part-time courses by developing an open-source curriculum for Ruby, C#, Entity Framework, ASP.NET, HTML, CSS, Responsive Web, JavaScript, TypeScript, React, Deployment, and Algorithmic Thinking.",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Enabled part-time courses by producing over 400 hours of recorded lectures with detailed slides and corresponding reading and code samples.",
-          "show": "hide",
-          "areas": ["front-end-web", "back-end-web"]
-        },
-        {
-          "text": "Reduced overhead by developing a Rails-based student management system to effectively handle multiple operations, including enrollment, homework assignment, grading, and student progress reports.",
-          "show": "list",
-          "areas": ["front-end-web", "back-end-web"]
+          "areas": ["physics-learning"]
         }
       ],
       "skills": [
@@ -212,313 +116,52 @@
         "PostgreSQL",
         "C#"
       ]
-    },
-
-    {
-      "companyName": "The Iron Yard",
-      "jobTitle": "Instructor and Product Development",
-      "startDate": "2015",
-      "endDate": "2017",
-      "location": "Saint Petersburg, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": true,
-      "descriptions": [
-        {
-          "text": "Increased enrollment at one of the most profitable campuses at the largest in-person code school through developing and implementing a curriculum for Ruby, Ruby on Rails, HTML, CSS, JavaScript, React, Node, Express, Algorithmic Thinking, and Deployment.",
-          "show": "list",
-          "areas": ["back-end-web", "front-end-web"]
-        },
-        {
-          "text": "Built a learning management application in Ruby on Rails to manage student information, assignments, and performance.",
-          "show": "list",
-          "areas": ["back-end-web", "front-end-web"]
-        }
-      ],
-      "skills": [
-        "JavaScript",
-        "Ruby",
-        "Ruby On Rails",
-        "Heroku",
-        "HTML",
-        "CSS",
-        "React",
-        "PostgreSQL"
-      ]
-    },
-    {
-      "companyName": "Real Digital Media",
-      "jobTitle": "Principal Software Engineer",
-      "startDate": "2005",
-      "endDate": "2015",
-      "location": "Saint Petersburg, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": true,
-      "descriptions": [
-        {
-          "text": "Designed, architected, and implemented a Ruby on Rails based software-as-a-service digital signage platform recognized as the most adaptable and easy to use in the market.",
-          "show": "list",
-          "areas": ["back-end-web", "front-end-web"]
-        },
-        {
-          "text": "Managed a team developing Ruby on Rails applications to provide a remote management web application to operate our customer's digital signage networks.",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Maintained excellent application availability by building infrastructure that processes millions of requests background jobs per day.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Increased application uptime and fault tolerance by building and deploying an AWS infrastructure and software deployment strategy, including multi-zone redundancy.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Continually lowered operational costs by migrating infrastructure from one server in a closet through a data center transition to a scalable Amazon Web Services based architecture over the course of the application's lifetime.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Improved customer support by creating Ruby API for customer service dashboards and alerts.",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Ensured continuity of business functions by building disaster recovery policies and code, including offsite content and database backups.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Opened new hardware markets by developing Linux and Android software and custom Linux distributions to run on embedded and PC platforms.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Increased platform reliability and uptime of thousands of remote devices by creating a custom Ubuntu-based operating system designed to boot from a single squashfs root filesystem combined with an overlay filesystem allowing for secure and reliable remote upgrades.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Increased the number of hardware platforms supported by patching Linux hardware drivers for device incompatibilities and missing features.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Reduced the complexity of supporting a diverse array of platforms spanning over 30 hardware configurations, from custom system-on-chip to off-the-shelf hardware, including migrations from 32 to 64-bit operating systems and software.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Built online Ruby on Rails report generator producing CSV, XML, JSON, and PDF reports.",
-          "show": "list",
-          "areas": ["back-end-web"]
-        },
-        {
-          "text": "Expanded markets to new customers by designing and building an interactive editor for creating digital signage presentations containing multi-zone and multi-screen configurations.",
-          "show": "list",
-          "areas": ["systems"]
-        }
-      ],
-      "skills": [
-        "Ruby",
-        "Ruby On Rails",
-        "HTML",
-        "CSS",
-        "TypeScript",
-        "JavaScript",
-        "React",
-        "MySQL",
-        "Linux"
-      ]
-    },
-    {
-      "companyName": "Honeywell Space Systems",
-      "jobTitle": "Principal Engineer",
-      "startDate": "2002",
-      "endDate": "2005",
-      "location": "Clearwater, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": false,
-      "descriptions": [
-        {
-          "text": "Innovated the use of commercial-off-the-shelf hardware and software (COTS) as a senior software architect on the Ballistic Missile Range Safety Technology program.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Achieved Flight Category 2 certification (one level below the safety category for human space flight) for tracking launch vehicles, downloading telemetry, converting real-time telemetry data into actionable information, and plotting the Instantaneous Impact Point of launch vehicles.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "See: <a class=\"underline print:no-underline\" href=\"https://en.wikipedia.org/wiki/BMRST\">https://en.wikipedia.org/wiki/BMRST</a>",
-          "show": "list",
-          "areas": ["systems"]
-        }
-      ],
-      "skills": ["C", "C++", "Windows"]
-    },
-    {
-      "companyName": "Teltronics",
-      "jobTitle": "Senior Software Engineer",
-      "startDate": "2000",
-      "endDate": "2002",
-      "location": "Sarasota, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": false,
-      "descriptions": [
-        {
-          "text": "Senior software engineer building C++ and Windows-based software for managing networks of PBX phone systems.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Contributed to embedded systems software in C and C++",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Created and executed unit, system, and acceptance tests.",
-          "show": "list",
-          "areas": ["systems"]
-        }
-      ],
-      "skills": ["C", "C++", "Windows"]
-    },
-    {
-      "companyName": "Epsilon Squared Software",
-      "jobTitle": "Owner",
-      "startDate": "1999",
-      "endDate": "2000",
-      "location": "Saint Petersburg, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": false,
-      "descriptions": [
-        {
-          "text": "Built, marketed, and sold products (InstallWatch and InstallRite) for documenting and automating the remote deployment of software on Microsoft Windows networks.",
-          "show": "list",
-          "areas": ["systems"]
-        }
-      ],
-      "skills": ["C", "C++", "Windows"]
-    },
-    {
-      "companyName": "CFT Consulting",
-      "jobTitle": "Senior Consultant",
-      "startDate": "1995",
-      "endDate": "1999",
-      "location": "Sarasota, Florida",
-      "visibleOnWeb": true,
-      "visibleOnPrint": false,
-      "descriptions": [
-        {
-          "text": "Designed and built software systems for nationwide system deployments and migrations of POS terminals, inventory management systems, warehouse management systems, and accounting systems for GAP, Egghead, Totes, and Adidas.",
-          "show": "list",
-          "areas": ["systems"]
-        },
-        {
-          "text": "Managed the RFP process for large POS and Merchandising system selections.",
-          "show": "list",
-          "areas": ["systems"]
-        }
-      ],
-      "skills": ["C", "C++", "Windows"]
     }
   ],
   "skills": [
-    { "tech": "Ruby", "years": 16, "areas": ["back-end-web"] },
-    { "tech": "Ruby on Rails", "years": 16, "areas": ["back-end-web"] },
-    { "tech": "Java", "years": 16, "areas": ["back-end-web"] },
-    { "tech": "C#", "years": 3, "areas": ["back-end-web"] },
-    { "tech": "TDD", "years": 14, "areas": ["back-end-web"] },
-    { "tech": "Docker", "years": 5, "areas": ["back-end-web"] },
+    { "tech": "Java", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "C#", "years": 2, "areas": ["back-end-web"] },
+    { "tech": "Docker", "years": 1, "areas": ["back-end-web"] },
 
-    { "tech": "Linux", "years": 15, "areas": ["back-end-web", "systems"] },
-    { "tech": "C", "years": 34, "areas": ["systems"] },
-    { "tech": "C++", "years": 29, "areas": ["systems"] },
-    { "tech": "JavaScript", "years": 16, "areas": ["front-end-web"] },
-    { "tech": "TypeScript", "years": 3, "areas": ["front-end-web"] },
-    { "tech": "HTML", "years": 16, "areas": ["front-end-web"] },
-    { "tech": "CSS", "years": 16, "areas": ["front-end-web"] },
-    { "tech": "React", "years": 4, "areas": ["front-end-web"] },
-    { "tech": "Heroku", "years": 6, "areas": ["back-end-web", "systems"] },
-    { "tech": "Nginx", "years": 11, "areas": ["back-end-web"] },
-    { "tech": "VMWare", "years": 9, "areas": ["systems"] },
-    { "tech": "MySQL", "years": 15, "areas": ["back-end-web"] },
-    { "tech": "PostgreSQL", "years": 6, "areas": ["back-end-web"] },
-    { "tech": "Windows", "years": 8, "areas": ["systems"] },
+    { "tech": "Linux", "years": 4, "areas": ["back-end-web", "systems"] },
+    { "tech": "C++", "years": 2, "areas": ["systems"] },
+    { "tech": "Python", "years": 2, "areas": ["systems"] },
+    { "tech": "JavaScript", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "TypeScript", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "HTML", "years": 2, "areas": ["front-end-web"] },
+    { "tech": "CSS", "years": 2, "areas": ["front-end-web"] },
+    { "tech": "React", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "PostgreSQL", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "Windows", "years": 20, "areas": ["systems"] },
     {
       "tech": "Mentorship",
-      "years": 12,
-      "areas": ["back-end-web", "front-end-web", "systems"]
+      "years": 4,
+      "areas": ["physics-learning", "systems"]
     },
     {
       "tech": "Management",
-      "years": 15.9,
-      "areas": ["back-end-web", "front-end-web", "systems"]
+      "years": 2,
+      "areas": ["project-management", "systems"]
     }
   ],
   "community": [
     {
-      "organization": "BarCamp Tampa Bay",
-      "description": "2007 to 2017 - Founding member of BarCamp Tampa Bay"
-    },
-    {
-      "organization": "Ignite Tampa Bay",
-      "description": "2011 to 2017 - Founding member of Ignite Tampa Bay"
-    },
-    {
-      "organization": "Coder Night",
-      "description": " 2017 to 2021 - Organized a meetup designed to help developers of all skill levels practice and receive feedback in a supportive and collaborative environment.  "
-    },
-    {
-      "organization": "Tampa Ruby Brigade",
-      "description": "2006 to Present - Organized the Tampa Ruby Brigade meetup."
+      "organization": "",
+      "description": ""
     }
   ],
   "eduction": [
     {
-      "school": "University of Arizona",
-      "degree": "Masters in Management Information Systems",
-      "_years": "1992 - 1994",
-      "_location": "Tucson, AZ"
+      "school": "Suncoast Developers Guild",
+      "degree": "Full Stack Engineering Program",
+      "_years": "2023-2024",
+      "_location": "St. Petersburg, FL"
     },
     {
-      "school": "University of Rochester",
-      "degree": "Bachelor of Arts in Computer Science / Applied Mathematics",
-      "_years": "1988 - 1992",
-      "_location": "Rochester, NY"
-    }
-  ],
-  "opensource": [
-    {
-      "packageName": "ruby",
-      "description": "Rubygems - added the initial implementation of “did you mean” for misspelled gems during install"
-    },
-    {
-      "packageName": "rake",
-      "description": "Updated output to print the list of tasks in full width if not printing to standard output. Allows for piping to other commands such as grep"
-    },
-    {
-      "packageName": "rvm",
-      "description": "Disabled color output when the terminal is not standard out"
-    },
-    {
-      "packageName": "jruby",
-      "description": "Implemented language features and fixed issues in JDBC drivers"
-    },
-    {
-      "packageName": "honeybadger",
-      "description": "Fixed data context issues"
-    },
-    {
-      "packageName": "libva",
-      "description": "Patched memory leaks"
-    },
-    {
-      "packageName": "gstreamer",
-      "description": "Resolved memory leaks in video and audio codecs"
+      "school": "University of California, Santa Barbara",
+      "degree": "Bachelor of Science in Physics / Minor in Astronomy",
+      "_years": "2016-2019",
+      "_location": "Santa Barbara, CA"
     }
   ]
 }

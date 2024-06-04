@@ -15,11 +15,13 @@ export function AboutResume() {
           'font-bold text-blue-900 tracking-widest',
           sectionTitleClassNames,
           sectionTitleBorderClassNames
-        )}>
+        )}
+      >
         About
       </p>
       <article
-        className={cx(sectionBodyClassNames, sectionBodyBorderClassNames)}>
+        className={cx(sectionBodyClassNames, sectionBodyBorderClassNames)}
+      >
         <div>
           <p>My resume uses the following technologies:</p>
 
@@ -38,12 +40,12 @@ export function AboutResume() {
               static version of the page for the fastest page load possible.
             </li>
             <li>
-              <a className="underline" href="https://resume.gstark.com">
-                https://resume.gstark.com
+              <a className="underline" href="https://resume.jeremybadger.com">
+                https://resume.jeremybadger.com
               </a>{' '}
               -{' '}
-              <a className="underline" href="https://github.com/gstark/resume">
-                https://github.com/gstark/resume
+              <a className="underline" href="https://github.com/jbadge/resume">
+                https://github.com/jbadge/resume
               </a>
             </li>
           </ul>

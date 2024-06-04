@@ -44,11 +44,13 @@ export function Experience({
     <section
       className={`grid grid-cols-12 my-2 ${visibleOnWeb ? 'block' : 'hidden'} ${
         visibleOnPrint ? 'print:block' : 'print:hidden'
-      }`}>
+      }`}
+    >
       <div
         className={cx('tracking-widest', sectionTitleClassNames, {
           [sectionTitleBorderClassNames]: showTitle,
-        })}>
+        })}
+      >
         {showTitle ? (
           <span className="font-bold text-blue-900">Career Experience</span>
         ) : null}
@@ -56,7 +58,8 @@ export function Experience({
       <article
         className={cx(sectionBodyClassNames, {
           [sectionBodyBorderClassNames]: showTitle,
-        })}>
+        })}
+      >
         <p className="flex justify-between mb-2 font-bold print:text-sm text-blue-900">
           <span>
             {jobTitle}, {companyName}, {location}
@@ -65,11 +68,6 @@ export function Experience({
             {startDate} - {endDate}
           </span>
         </p>
-        {/* <p className="mb-1">
-          <span className="text-xs">
-            {skills ? skills.map((skill) => `${skill}. `) : null}
-          </span>
-        </p> */}
         <p
           className="leading-snug"
           dangerouslySetInnerHTML={{
@@ -77,7 +75,8 @@ export function Experience({
               .filter((description) => description.show === 'paragraph')
               .map((description) => description.text)
               .join(' '),
-          }}></p>
+          }}
+        ></p>
         <ul>
           {descriptionsToShow
             .filter((description) => description.show === 'list')
@@ -85,7 +84,8 @@ export function Experience({
               <li
                 key={index}
                 className="leading-snug"
-                dangerouslySetInnerHTML={{ __html: description.text }}></li>
+                dangerouslySetInnerHTML={{ __html: description.text }}
+              ></li>
             ))}
         </ul>
       </article>

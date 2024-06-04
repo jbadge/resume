@@ -29,13 +29,15 @@ export function Education({
           {
             [sectionTitleBorderClassNames]: showTitle,
           }
-        )}>
+        )}
+      >
         {showTitle ? 'Education' : null}
       </p>
       <article
         className={cx(sectionBodyClassNames, {
           [sectionBodyBorderClassNames]: showTitle,
-        })}>
+        })}
+      >
         <p className="mb-1">
           <span className="font-bold text-blue-900 tracking-wide">
             {school}

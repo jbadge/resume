@@ -1,6 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
-import { NavLink } from 'react-router-dom'
+import { BrowserRouter, NavLink } from 'react-router-dom'
 import {
   sectionBodyBorderClassNames,
   sectionBodyClassNames,
@@ -14,9 +14,10 @@ export function SkillArea() {
         <span className="font-bold text-blue-900">Skill Areas</span>
       </p>
       <article
-        className={cx(sectionBodyClassNames, sectionBodyBorderClassNames)}>
+        className={cx(sectionBodyClassNames, sectionBodyBorderClassNames)}
+      >
         <div className="flex justify-between">
-          <NavLink exact to="/" className="nav-link">
+          <NavLink to="/" className="nav-link">
             All Areas
           </NavLink>
           <NavLink to="/back-end-web" className="nav-link">
