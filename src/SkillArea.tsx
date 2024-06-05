@@ -1,6 +1,6 @@
 import React from 'react'
 import cx from 'classnames'
-import { BrowserRouter, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import {
   sectionBodyBorderClassNames,
   sectionBodyClassNames,
