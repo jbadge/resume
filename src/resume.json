@@ -28,10 +28,11 @@
           "show": "list",
           "areas": ["physics-learning"]
         }
-      ]
+      ],
+      "skills": ["Physics", "JavaScript", "Linux", "HTML", "CSS"]
     },
     {
-      "companyName": "University of California, Santa Barbara",
+      "companyName": "University of California: Santa Barbara",
       "jobTitle": "Data Research Analyst | Imaging Pipeline",
       "startDate": "Jan 2018",
       "endDate": "Aug 2019",
@@ -52,12 +53,13 @@
         {
           "text": "Took initiative to debug and refactor non-working Python code and develop new code for image analysis pipeline.",
           "show": "list",
-          "areas": ["back-end"]
+          "areas": ["back-end-web"]
         }
-      ]
+      ],
+      "skills": ["Project Management", "Physics Learning", "Linux", "Python"]
     },
     {
-      "companyName": "University of California, Santa Barbara",
+      "companyName": "University of California - Santa Barbara",
       "jobTitle": "Laboratory Assistant | IT Coordinator, System Administrator",
       "startDate": "Jan 2018",
       "endDate": "Aug 2019",
@@ -76,17 +78,7 @@
           "areas": ["systems"]
         }
       ],
-      "skills": [
-        "Ruby",
-        "Ruby On Rails",
-        "TypeScript",
-        "JavaScript",
-        "React",
-        "MySQL",
-        "Linux",
-        "HTML",
-        "CSS"
-      ]
+      "skills": ["Physics Learning", "Linux"]
     },
 
     {
@@ -104,34 +96,22 @@
           "areas": ["physics-learning"]
         }
       ],
-      "skills": [
-        "Ruby",
-        "Ruby On Rails",
-        "React",
-        "TypeScript",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Deployment",
-        "PostgreSQL",
-        "C#"
-      ]
+      "skills": ["Physics Learning"]
     }
   ],
   "skills": [
-    { "tech": "Java", "years": 1, "areas": ["back-end-web"] },
     { "tech": "C#", "years": 2, "areas": ["back-end-web"] },
-    { "tech": "Docker", "years": 1, "areas": ["back-end-web"] },
-
-    { "tech": "Linux", "years": 4, "areas": ["back-end-web", "systems"] },
-    { "tech": "C++", "years": 2, "areas": ["systems"] },
-    { "tech": "Python", "years": 2, "areas": ["systems"] },
     { "tech": "JavaScript", "years": 1, "areas": ["front-end-web"] },
     { "tech": "TypeScript", "years": 1, "areas": ["front-end-web"] },
     { "tech": "HTML", "years": 2, "areas": ["front-end-web"] },
     { "tech": "CSS", "years": 2, "areas": ["front-end-web"] },
     { "tech": "React", "years": 1, "areas": ["front-end-web"] },
     { "tech": "PostgreSQL", "years": 1, "areas": ["back-end-web"] },
+
+    { "tech": "C++", "years": 2, "areas": ["systems"] },
+    { "tech": "Python", "years": 2, "areas": ["systems"] },
+    { "tech": "Linux", "years": 4, "areas": ["back-end-web", "systems"] },
+    { "tech": "Java", "years": 1, "areas": ["back-end-web"] },
     { "tech": "Windows", "years": 20, "areas": ["systems"] },
     {
       "tech": "Mentorship",
@@ -146,7 +126,7 @@
   ],
   "community": [
     {
-      "organization": "",
+      "organization": "Coming Soon",
       "description": ""
     }
   ],

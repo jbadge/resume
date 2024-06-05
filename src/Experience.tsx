@@ -62,7 +62,14 @@ export function Experience({
       >
         <p className="flex justify-between mb-2 font-bold print:text-sm text-blue-900">
           <span>
-            {jobTitle}, {companyName}, {location}
+            {jobTitle}
+            {/* {companyName} */}
+            {/* {location} */}
+            <p>
+              <span>
+                {companyName}, {location}
+              </span>
+            </p>
           </span>
           <span className="text-right whitespace-nowrap">
             {startDate} - {endDate}

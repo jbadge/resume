@@ -29,6 +29,12 @@ export function SkillArea() {
           <NavLink to="/systems" className="nav-link">
             Systems
           </NavLink>
+          <NavLink to="/project-management" className="nav-link">
+            Project Management
+          </NavLink>
+          <NavLink to="/physics-learning" className="nav-link">
+            Physics
+          </NavLink>
         </div>
       </article>
     </section>
