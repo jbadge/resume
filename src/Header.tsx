@@ -1,5 +1,6 @@
 import React from 'react'
 import resume from './resume.json'
+// import file from './images/file.png'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
 
@@ -10,6 +11,7 @@ export function Header({
     name: string
     phone: string
     email: string
+    webpage: string
     linkedin: string
     github: string
   }
@@ -28,6 +30,21 @@ export function Header({
           <span className="block">{resume.contact.address}</span>
         </div>
         <div className="w-100">
+          {/* <a
+            className="block print:hidden"
+            href={`https://www.${resume.contact.webpage}.com`}
+          >
+            <img
+              alt="Jeremy's Webpage"
+              className="inline pr-1"
+              style={{ height: '1rem' }}
+              src={file}
+            />
+            {resume.contact.webpage}
+          </a>
+          <span className="hidden print:block">
+            https://www.linkedin.com/in/{resume.contact.webpage}
+          </span> */}
           <a
             className="block print:hidden"
             href={`https://www.linkedin.com/in/${resume.contact.linkedin}`}

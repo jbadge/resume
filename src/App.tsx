@@ -21,11 +21,11 @@ export function App() {
       >
         <a
           className="block w-full xl:w-60 text-sm text-center"
-          href={`https://github.com/${resume.contact.github}`}
-          data-ribbon="Find me on GitHub"
-          title="Find me on GitHub"
+          href={`https://www.${resume.contact.webpage}.com`}
+          data-ribbon="Back to Jeremy's Portfolio"
+          title="Back to Jeremy's Portfolio"
         >
-          Find me on GitHub
+          Back to Jeremy&apos;s Portfolio
         </a>
       </div>
 
@@ -40,8 +40,8 @@ export function App() {
 
         <Separator />
 
-        {resume.experience.map((experience, index) => (
-          <Experience key={index} showTitle={index === 0} {...experience} />
+        {resume.eduction.map((education, index) => (
+          <Education key={index} showTitle={index === 0} {...education} />
         ))}
 
         <Separator />
@@ -49,11 +49,11 @@ export function App() {
         {/* {resume.community.map((community, index) => (
           <Community key={index} showTitle={index === 0} {...community} />
         ))}
+        
+      <Separator /> */}
 
-        <Separator /> */}
-
-        {resume.eduction.map((education, index) => (
-          <Education key={index} showTitle={index === 0} {...education} />
+        {resume.experience.map((experience, index) => (
+          <Experience key={index} showTitle={index === 0} {...experience} />
         ))}
 
         <Separator />

@@ -11,14 +11,14 @@ export function Education({
   showTitle = false,
   school,
   degree,
-  _years,
-  _location,
+  years,
+  location,
 }: {
   showTitle?: boolean
   school: string
   degree: string
-  _years: string
-  _location: string
+  years: string
+  location: string
 }) {
   return (
     <section className="grid grid-cols-12 my-2">
@@ -38,13 +38,21 @@ export function Education({
           [sectionBodyBorderClassNames]: showTitle,
         })}
       >
-        <p className="mb-1">
-          <span className="font-bold text-blue-900 tracking-wide">
+        <p className="flex justify-between mb-2 font-bold print:text-sm text-blue-900">
+          <span
+          // className="font-bold text-blue-900 tracking-wide"
+          >
             {school}
+            <p
+            // className="font-bold text-blue-900 tracking-wide"
+            >
+              <span>{location}</span>
+            </p>
           </span>
+          <span className="text-right whitespace-nowrap">{years}</span>
         </p>
         <p className="mb-1">
-          <span>{degree}</span>
+          <span className="leading-snug">{degree}</span>
         </p>
       </article>
     </section>

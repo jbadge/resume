@@ -4,6 +4,7 @@
     "email": "jeremebadger@gmail.com",
     "phone": "813-748-0979",
     "address": "Santa Ana, CA, 92705",
+    "webpage": "jeremybadger",
     "linkedin": "jeremybadger",
     "github": "jbadge"
   },
@@ -134,14 +135,14 @@
     {
       "school": "Suncoast Developers Guild",
       "degree": "Full Stack Engineering Program",
-      "_years": "2023-2024",
-      "_location": "St. Petersburg, FL"
+      "years": "2023 - 2024",
+      "location": "St. Petersburg, FL"
     },
     {
       "school": "University of California, Santa Barbara",
       "degree": "Bachelor of Science in Physics / Minor in Astronomy",
-      "_years": "2016-2019",
-      "_location": "Santa Barbara, CA"
+      "years": "2016 - 2019",
+      "location": "Santa Barbara, CA"
     }
   ]
 }
