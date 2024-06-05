@@ -2,12 +2,12 @@ import React from 'react'
 import resume from './resume.json'
 import { Experience } from './Experience'
 import { Education } from './Education'
-import { Community } from './Community'
 import { AboutResume } from './AboutResume'
 import { Skills } from './Skills'
 import { Separator } from './Separator'
 import { Header } from './Header'
-import { SkillArea } from './SkillArea'
+// import { Community } from './Community'
+// import { SkillArea } from './SkillArea'
 
 export function App() {
   return (
@@ -34,7 +34,7 @@ export function App() {
 
         <div className="leading-snug">{resume.about}</div>
 
-        <SkillArea />
+        {/* <SkillArea /> */}
 
         <Skills showTitle skills={resume.skills} />
 
@@ -46,11 +46,11 @@ export function App() {
 
         <Separator />
 
-        {resume.community.map((community, index) => (
+        {/* {resume.community.map((community, index) => (
           <Community key={index} showTitle={index === 0} {...community} />
         ))}
 
-        <Separator />
+        <Separator /> */}
 
         {resume.eduction.map((education, index) => (
           <Education key={index} showTitle={index === 0} {...education} />
