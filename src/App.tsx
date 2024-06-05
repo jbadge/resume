@@ -2,7 +2,6 @@ import React from 'react'
 import resume from './resume.json'
 import { Experience } from './Experience'
 import { Education } from './Education'
-// import { OpenSource } from './OpenSource'
 import { Community } from './Community'
 import { AboutResume } from './AboutResume'
 import { Skills } from './Skills'
@@ -58,12 +57,6 @@ export function App() {
         ))}
 
         <Separator />
-
-        {/* {resume.opensource.map((opensource, index) => (
-          <OpenSource key={index} showTitle={index === 0} {...opensource} />
-        ))}
-
-        <Separator /> */}
 
         <AboutResume />
 
