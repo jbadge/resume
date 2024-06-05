@@ -51,9 +51,9 @@ export function Education({
           </span>
           <span className="text-right whitespace-nowrap">{years}</span>
         </p>
-        <p className="mb-1">
-          <span className="leading-snug">{degree}</span>
-        </p>
+        <ul className="mb-1">
+          <li className="leading-snug">{degree}</li>
+        </ul>
       </article>
     </section>
   )
