@@ -7,18 +7,18 @@ import {
   sectionBodyBorderClassNames,
 } from './styleConstants'
 
-export function Community({
+export function Honors({
   showTitle = false,
-  role,
+  award,
   organization,
   description,
   years,
 }: {
   showTitle?: boolean
-  role: string
-  organization: string
-  description: string
-  years: string
+  award: string
+  organization?: string
+  description?: string
+  years?: string
 }) {
   return (
     <section className="grid grid-cols-12 my-2">
@@ -31,7 +31,7 @@ export function Community({
           }
         )}
       >
-        {showTitle ? 'Community & Leadership ' : null}
+        {showTitle ? 'Honors & Awards ' : null}
       </p>
       <article
         className={cx(sectionBodyClassNames, {
@@ -39,7 +39,7 @@ export function Community({
         })}
       >
         <p>
-          <span className="font-bold text-blue-900 tracking-wide">{role}</span>
+          <span className="font-bold text-blue-900 tracking-wide">{award}</span>
         </p>
         <p>
           <span className="flex justify-between mb-2 print:text-sm text-blue-900">

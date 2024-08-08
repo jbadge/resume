@@ -67,7 +67,8 @@ export function Experience({
             {/* {location} */}
             <p>
               <span>
-                {companyName}, {location}
+                {companyName ? `${companyName}, ` : ''}
+                {location}
               </span>
             </p>
           </span>

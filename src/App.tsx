@@ -6,7 +6,10 @@ import { AboutResume } from './AboutResume'
 import { Skills } from './Skills'
 import { Separator } from './Separator'
 import { Header } from './Header'
-// import { Community } from './Community'
+import { Community } from './Community'
+import { Honors } from './Honors'
+import { Publications } from './Publications'
+
 // import { SkillArea } from './SkillArea'
 
 export function App() {
@@ -46,14 +49,26 @@ export function App() {
 
         <Separator />
 
-        {/* {resume.community.map((community, index) => (
-          <Community key={index} showTitle={index === 0} {...community} />
-        ))}
-        
-      <Separator /> */}
-
         {resume.experience.map((experience, index) => (
           <Experience key={index} showTitle={index === 0} {...experience} />
+        ))}
+
+        <Separator />
+
+        {resume.community.map((community, index) => (
+          <Community key={index} showTitle={index === 0} {...community} />
+        ))}
+
+        <Separator />
+
+        {resume.honors.map((honors, index) => (
+          <Honors key={index} showTitle={index === 0} {...honors} />
+        ))}
+
+        <Separator />
+
+        {resume.publications.map((publications, index) => (
+          <Publications key={index} showTitle={index === 0} {...publications} />
         ))}
 
         <Separator />

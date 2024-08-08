@@ -11,6 +11,33 @@
   "about": "Former physics academic seeking to apply and develop skills in technology, leadership, team-based projects, and problem solving.",
   "experience": [
     {
+      "companyName": "",
+      "jobTitle": "Education & Family Sabbatical",
+      "startDate": "Mar 2021",
+      "endDate": "Present",
+      "location": "",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "Attended Code Academy for Full Stack Development.",
+          "show": "list",
+          "areas": []
+        },
+        {
+          "text": "Relocated to Orange County, California from Santa Barbara County, California.",
+          "show": "list",
+          "areas": []
+        },
+        {
+          "text": "Traveled to support family during health and major life transitions.",
+          "show": "list",
+          "areas": []
+        }
+      ],
+      "skills": ["Physics", "JavaScript", "Linux", "HTML", "CSS"]
+    },
+    {
       "companyName": "University of California, Santa Barbara",
       "jobTitle": "Instructional Lab Coordinator | Lower Division Physics",
       "startDate": "Aug 2019",
@@ -34,7 +61,7 @@
     },
     {
       "companyName": "University of California: Santa Barbara",
-      "jobTitle": "Data Research Analyst | Imaging Pipeline",
+      "jobTitle": "Data Research Analyst, Project Manager | Imaging Pipeline",
       "startDate": "Jan 2018",
       "endDate": "Aug 2019",
       "location": "Santa Barbara, California",
@@ -81,12 +108,11 @@
       ],
       "skills": ["Physics Learning", "Linux"]
     },
-
     {
       "companyName": "Los Angeles Valley College",
       "jobTitle": "Physics Tutor at the Tutoring Center",
       "startDate": "Nov 2015",
-      "endDate": "July 2016",
+      "endDate": "Jul 2016",
       "location": "Los Angeles, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
@@ -98,6 +124,45 @@
         }
       ],
       "skills": ["Physics Learning"]
+    },
+    {
+      "companyName": "Indefatigable Computer Service",
+      "jobTitle": "Senior Computer Technician | IT Support Specialist",
+      "startDate": "May 2000",
+      "endDate": "Sep 2014",
+      "location": "Tampa, Florida",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "Provided consulting for enterprise and individual clients on computer and network issues.",
+          "show": "list",
+          "areas": ["systems"]
+        },
+        {
+          "text": "Assembled and maintained workstations across Windows, OS X, and Linux platforms.",
+          "show": "list",
+          "areas": ["systems"]
+        }
+      ],
+      "skills": ["Windows", "Linux"]
+    },
+    {
+      "companyName": "Self-Employed",
+      "jobTitle": "Actor | Producer",
+      "startDate": "Jan 2000",
+      "endDate": "Dec 2012",
+      "location": "Tampa, Florida",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "",
+          "show": "paragraph",
+          "areas": []
+        }
+      ],
+      "skills": []
     }
   ],
   "skills": [
@@ -127,8 +192,28 @@
   ],
   "community": [
     {
-      "organization": "Coming Soon",
-      "description": ""
+      "role": "Vice President",
+      "organization": "Undergraduate Diversity and Inclusion in Physics",
+      "description": "",
+      "years": "Jul 2018 - Jul 2019"
+    },
+    {
+      "role": "Secretary",
+      "organization": "Undergraduate Diversity and Inclusion in Physics",
+      "description": "",
+      "years": "Dec 2017 - Jul 2018"
+    },
+    {
+      "role": "Officer",
+      "organization": "Physics Club",
+      "description": "",
+      "years": "Aug 2014 - Jun 2016"
+    },
+    {
+      "role": "Senator",
+      "organization": "SGA Student Government",
+      "description": "",
+      "years": "Sep 2013 - Jul 2014"
     }
   ],
   "eduction": [
@@ -143,6 +228,54 @@
       "degree": "Bachelor of Science in Physics / Minor in Astronomy",
       "years": "2016 - 2019",
       "location": "Santa Barbara, CA"
+    },
+    {
+      "school": "Los Angeles Valley College",
+      "degree": "Associates of Science in Physics, Associates of Science in Mathematics",
+      "years": "2014 - 2016",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "school": "Hillsborough Community College",
+      "degree": "Associate of Arts in Business",
+      "years": "2012 - 2014",
+      "location": "Tampa, FL"
+    }
+  ],
+  "honors": [
+    {
+      "award": "Physics Chair's Appreciation Award",
+      "organization": "University of California, Santa Barbara",
+      "description": "",
+      "years": "Jul 2019"
+    },
+    {
+      "award": "Physics Circus Award for Outreach",
+      "organization": "University of California, Santa Barbara",
+      "description": "",
+      "years": "Jul 2018"
+    },
+    {
+      "award": "President's Distinguished Honor Award",
+      "organization": "Los Angeles Valley College",
+      "description": "",
+      "years": "2014 - 2016"
+    },
+    {
+      "award": "Dean’s List",
+      "organization": "Hillsborough Community College",
+      "description": "",
+      "years": "2012 - 2014"
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Polanski, A., Lebaron, N., ",
+      "author": "Badger, J.",
+      "title": "The Search for Directed Intelligence: Image Processing.",
+      "organization": "Physics Department, University of California, Santa Barbara",
+      "description": "In Progress",
+      "year": "2024."
     }
   ]
 }

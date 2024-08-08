@@ -36,3 +36,9 @@ li::before {
 .test {
   margin-bottom: -20px;
 }
+
+.mb-1 {
+  leading-snug {
+    white-space: 'pre-wrap';
+  }
+}
