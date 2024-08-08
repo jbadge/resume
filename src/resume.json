@@ -69,7 +69,7 @@
       "visibleOnPrint": true,
       "descriptions": [
         {
-          "text": "Led team of ~10 researchers, under Dr. Phillip Lubin, decreasing pipeline runtime duration by 50%",
+          "text": "Led team of ~10 researchers on Search for Directed Intelligence (SDI) Project, under Dr. Phillip Lubin, decreasing pipeline runtime duration by 50%",
           "show": "list",
           "areas": ["project-management"]
         },
@@ -109,6 +109,33 @@
       "skills": ["Physics Learning", "Linux"]
     },
     {
+      "companyName": "University of California: Santa Barbara",
+      "jobTitle": "Undergraduate Researcher | Partitioning Exotic Spheres",
+      "startDate": "Aug 2014",
+      "endDate": "Nov 2015",
+      "location": "Southern California Conference for Undergraduate Research (SCURR), Harvey Mudd College",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "Independently learned about geometric and differential topology on a team of five students, working together to overcome obstacles in the material.",
+          "show": "list",
+          "areas": []
+        },
+        {
+          "text": "Detailed that a third dimensional manifold presented by Gluck could, in fact, be a candidate for Poincare’s conjecture.",
+          "show": "list",
+          "areas": []
+        },
+        {
+          "text": "Was an author to an abstract discussing the work, which was accepted by Harvey Mudd College and presented at Southern California Conferences for Undergraduate Research (SCCUR).",
+          "show": "list",
+          "areas": []
+        }
+      ],
+      "skills": []
+    },
+    {
       "companyName": "Los Angeles Valley College",
       "jobTitle": "Physics Tutor at the Tutoring Center",
       "startDate": "Nov 2015",
@@ -143,6 +170,23 @@
           "text": "Assembled and maintained workstations across Windows, OS X, and Linux platforms.",
           "show": "list",
           "areas": ["systems"]
+        }
+      ],
+      "skills": ["Windows", "Linux"]
+    },
+    {
+      "companyName": "Czar Vodka Bar & Nightclub",
+      "jobTitle": "Door Manager, Head of Security",
+      "startDate": "May 2004",
+      "endDate": "Sep 2009",
+      "location": "Tampa, Florida",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "",
+          "show": "paragraph",
+          "areas": []
         }
       ],
       "skills": ["Windows", "Linux"]
