@@ -61,6 +61,33 @@
     },
     {
       "companyName": "University of California: Santa Barbara",
+      "jobTitle": "Undergraduate Student Facilitator",
+      "startDate": "Mar 2019",
+      "endDate": "Jun 2019",
+      "location": "Santa Barbara, California",
+      "visibleOnWeb": true,
+      "visibleOnPrint": true,
+      "descriptions": [
+        {
+          "text": "Led undergraduate students through an undergraduate collaboration in exploring Siemens NX, CAM design as well as 3D printing, CNC fabrication and laser-cut etchings.",
+          "show": "list",
+          "areas": ["project-management"]
+        },
+        {
+          "text": "Gave weekly presentations to other undergraduates to facilitate, motivate and structure the learning process.",
+          "show": "list",
+          "areas": ["project-management"]
+        },
+        {
+          "text": "Created and maintained a course website in which students received instructions for submissions as well as weekly announcements. ",
+          "show": "list",
+          "areas": ["project-management"]
+        }
+      ],
+      "skills": ["Project Management", "Physics Learning", "Linux", "Python"]
+    },
+    {
+      "companyName": "University of California: Santa Barbara",
       "jobTitle": "Data Research Analyst, Project Manager | Imaging Pipeline",
       "startDate": "Jan 2018",
       "endDate": "Aug 2019",
