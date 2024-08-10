@@ -49,10 +49,6 @@ export function Honors({
                 {description}
                 <span className="whitespace-nowrap">{years}</span>
               </span>
-
-              {/* <span className="text-right font-bold whitespace-nowrap">
-                {years}
-              </span> */}
             </p>
           </span>
         </p>

@@ -136,11 +136,11 @@
       "skills": ["Physics Learning", "Linux"]
     },
     {
-      "companyName": "University of California: Santa Barbara",
+      "companyName": "",
       "jobTitle": "Undergraduate Researcher | Partitioning Exotic Spheres",
       "startDate": "Aug 2014",
       "endDate": "Nov 2015",
-      "location": "Southern California Conference for Undergraduate Research (SCURR), Harvey Mudd College",
+      "location": "Southern California Conference for Undergraduate Research (SCURR), Harvey Mudd College, Claremont, California",
       "visibleOnWeb": true,
       "visibleOnPrint": true,
       "descriptions": [
@@ -155,7 +155,7 @@
           "areas": []
         },
         {
-          "text": "Was an author to an abstract discussing the work, which was accepted by Harvey Mudd College and presented at Southern California Conferences for Undergraduate Research (SCCUR).",
+          "text": "Was an author to an abstract discussing the work, which was accepted by Harvey Mudd College and presented at Southern California Conferences for Undergraduate Research.",
           "show": "list",
           "areas": []
         }
@@ -236,31 +236,6 @@
       "skills": []
     }
   ],
-  "skills": [
-    { "tech": "C#", "years": 2, "areas": ["back-end-web"] },
-    { "tech": "JavaScript", "years": 1, "areas": ["front-end-web"] },
-    { "tech": "TypeScript", "years": 1, "areas": ["front-end-web"] },
-    { "tech": "HTML", "years": 2, "areas": ["front-end-web"] },
-    { "tech": "CSS", "years": 2, "areas": ["front-end-web"] },
-    { "tech": "React", "years": 1, "areas": ["front-end-web"] },
-    { "tech": "PostgreSQL", "years": 1, "areas": ["back-end-web"] },
-
-    { "tech": "C++", "years": 2, "areas": ["systems"] },
-    { "tech": "Python", "years": 2, "areas": ["systems"] },
-    { "tech": "Linux", "years": 4, "areas": ["back-end-web", "systems"] },
-    { "tech": "Java", "years": 1, "areas": ["back-end-web"] },
-    { "tech": "Windows", "years": 20, "areas": ["systems"] },
-    {
-      "tech": "Mentorship",
-      "years": 4,
-      "areas": ["physics-learning", "systems"]
-    },
-    {
-      "tech": "Management",
-      "years": 2,
-      "areas": ["project-management", "systems"]
-    }
-  ],
   "community": [
     {
       "role": "Vice President",
@@ -287,7 +262,34 @@
       "years": "Sep 2013 - Jul 2014"
     }
   ],
-  "eduction": [
+  "coursework": [
+    {
+      "course": "Introduction to Computer Science & Software Development",
+      "show": "list",
+      "areas": ["Python"]
+    },
+    {
+      "course": "Problem Solving, Data Structures & Object Oriented Programming",
+      "show": "list",
+      "areas": ["C++"]
+    },
+    {
+      "course": "Computer Organization & Digital Logic Design",
+      "show": "list",
+      "areas": ["MIPS Assembly Language"]
+    },
+    {
+      "course": "Advanced Applications Programming",
+      "show": "list",
+      "areas": ["Java"]
+    },
+    {
+      "course": "Introduction to Scientific Computation",
+      "show": "list",
+      "areas": ["Python", "Bash", "Linux"]
+    }
+  ],
+  "education": [
     {
       "school": "Suncoast Developers Guild",
       "degree": "Full Stack Engineering Program",
@@ -347,6 +349,52 @@
       "organization": "Physics Department, University of California, Santa Barbara",
       "description": "In Progress",
       "year": "2024."
+    }
+  ],
+  "skills": [
+    { "tech": "JavaScript", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "TypeScript", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "C#", "years": 2, "areas": ["back-end-web"] },
+    { "tech": "React", "years": 1, "areas": ["front-end-web"] },
+
+    { "tech": "PostgreSQL", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "SQL", "years": 1, "areas": ["back-end-web"] },
+
+    { "tech": "Entity Framework", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "Linq", "years": 1, "areas": ["back-end-web"] },
+
+    { "tech": "HTML5", "years": 2, "areas": ["front-end-web"] },
+    { "tech": "CSS3", "years": 2, "areas": ["front-end-web"] },
+
+    { "tech": "Python", "years": 2, "areas": ["systems"] },
+    { "tech": "C++", "years": 2, "areas": ["systems"] },
+    { "tech": "Java", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "Assembly", "years": 2, "areas": ["systems"] },
+
+    { "tech": "Matlab", "years": 2, "areas": ["systems"] },
+    { "tech": "LaTeX", "years": 2, "areas": ["systems"] },
+
+    { "tech": "React.js", "years": 2, "areas": ["front-end-web"] },
+    { "tech": "Node.js", "years": 2, "areas": ["front-end-web"] },
+    { "tech": "ASP.NET", "years": 1, "areas": ["front-end-web"] },
+    { "tech": "Vite", "years": 1, "areas": ["back-end-web"] },
+
+    { "tech": "Bash", "years": 2, "areas": ["systems"] },
+    { "tech": "Linux", "years": 4, "areas": ["back-end-web", "systems"] },
+    { "tech": "MacOS/UNIX", "years": 10, "areas": ["systems"] },
+    { "tech": "Windows", "years": 20, "areas": ["systems"] },
+
+    { "tech": "ChatGPT", "years": 1, "areas": ["back-end-web"] },
+    { "tech": "Cody AI", "years": 1, "areas": ["back-end-web"] },
+    {
+      "tech": "Mentorship",
+      "years": 4,
+      "areas": ["physics-learning", "systems"]
+    },
+    {
+      "tech": "Management",
+      "years": 2,
+      "areas": ["project-management", "systems"]
     }
   ]
 }

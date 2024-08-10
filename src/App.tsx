@@ -9,7 +9,6 @@ import { Header } from './Header'
 import { Community } from './Community'
 import { Honors } from './Honors'
 import { Publications } from './Publications'
-
 // import { SkillArea } from './SkillArea'
 
 export function App() {
@@ -43,8 +42,13 @@ export function App() {
 
         <Separator />
 
-        {resume.eduction.map((education, index) => (
-          <Education key={index} showTitle={index === 0} {...education} />
+        {resume.education.map((education, index) => (
+          <Education
+            key={index}
+            showTitle={index === 0}
+            {...education}
+            coursework={resume.coursework}
+          />
         ))}
 
         <Separator />

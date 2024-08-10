@@ -13,7 +13,6 @@ body {
   min-height: 100%;
 }
 
-/* Custom styling to make list item bullets the same between browsers */
 li {
   position: relative;
   padding-left: 0.9rem;
@@ -37,8 +36,14 @@ li::before {
   margin-bottom: -20px;
 }
 
-.mb-1 {
-  leading-snug {
-    white-space: 'pre-wrap';
-  }
+.mb-1 .leading-snug {
+  white-space: 'pre-wrap';
+}
+
+.additional-info {
+  margin-left: 50px;
+}
+
+.no-bullets::before {
+  content: '-';
 }

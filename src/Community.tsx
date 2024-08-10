@@ -42,7 +42,6 @@ export function Community({
           <span className="font-bold text-blue-900 tracking-wide">{role}</span>
         </p>
         <p>
-          {/* <span className="flex justify-between mb-2 print:text-sm text-blue-900"> */}
           <span className="mb-2 print:text-sm text-blue-900">
             {organization}
             <p>
@@ -50,10 +49,6 @@ export function Community({
                 {description}
                 <span className="whitespace-nowrap">{years}</span>
               </span>
-
-              {/* <span className="text-right font-bold whitespace-nowrap">
-                {years}
-              </span> */}
             </p>
           </span>
         </p>
