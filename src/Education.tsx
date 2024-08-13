@@ -78,20 +78,40 @@ export function Education({
               dangerouslySetInnerHTML={{
                 __html: coursesToShow
                   .filter((course) => course.show === 'paragraph')
-                  .map((course) => course.course)
+                  .map((course) => {
+                    const areas = course.areas
+                    const formattedAreas =
+                      areas.length > 1
+                        ? areas.slice(0, -1).join(', ') +
+                          ' and ' +
+                          areas[areas.length - 1]
+                        : areas[0]
+                    return `${course.course} using ${formattedAreas}`
+                  })
                   .join(' '),
               }}
             ></p>
             <ul>
               {coursesToShow
                 .filter((course) => course.show === 'list')
-                .map((course, index) => (
-                  <li
-                    key={index}
-                    className="leading-snug no-bullets"
-                    dangerouslySetInnerHTML={{ __html: course.course }}
-                  ></li>
-                ))}
+                .map((course, index) => {
+                  const areas = course.areas
+                  const formattedAreas =
+                    areas.length > 1
+                      ? areas.slice(0, -1).join(', ') +
+                        ' and ' +
+                        areas[areas.length - 1]
+                      : areas[0]
+                  return (
+                    <li
+                      key={index}
+                      className="leading-snug no-bullets"
+                      dangerouslySetInnerHTML={{
+                        __html: `${course.course} in ${formattedAreas}`,
+                      }}
+                    ></li>
+                  )
+                })}
             </ul>
           </div>
         )}
