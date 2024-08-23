@@ -65,7 +65,8 @@ export function Experience({
             {jobTitle}
             <p>
               <span>
-                {companyName ? `${companyName}, ` : ''}
+                {companyName}
+                {companyName && location ? `, ` : ''}
                 {location}
               </span>
             </p>
